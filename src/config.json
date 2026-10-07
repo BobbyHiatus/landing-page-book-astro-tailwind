@@ -1,7 +1,7 @@
 {
   "showAmazonTag": false,
   "showComingSoon": false,
-  "showBuyAndBookButton": false,
+  "showBuyAndBookButton": true,
   "sections": {
     "showBuyAudiobook": false,
     "showDownloadFreeChapter": false,
@@ -48,5 +48,39 @@
       "cents": "99",
       "details": ["Format: Printed Edition", "Shipped by Amazon"]
     }
+  },
+  "socialShare": {
+    "twitter": "",
+    "facebook": "",
+    "linkedin": ""
+  },
+  "interviews": {
+    "title": "Interviews & Press",
+    "list": []
+  },
+  "freeChapter": {
+    "title": "Get a Free Chapter",
+    "description": "Enter your email address to receive the first chapter of the book for free.",
+    "buttonText": "Download Now"
+  },
+  "whatsInside": {
+    "title": "What's Inside",
+    "list": [
+      {
+        "title": "Part I: Narrow Places",
+        "description": "An exploration of chokepoints, canals, undersea cables, and the structural ways flow is captured."
+      },
+      {
+        "title": "Part II: Internal Flows",
+        "description": "Systems thinking meets attention, grief, and the human scale of experiencing time."
+      }
+    ]
+  },
+  "buy": {
+    "title": "Get your copy today",
+    "description": "Available in digital and physical editions on Amazon."
+  },
+  "footer": {
+    "text": "Copyright © 2024 Bob Cavin III. All rights reserved."
   }
 }
