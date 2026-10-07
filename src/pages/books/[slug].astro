@@ -1,0 +1,75 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MoreBooks from '../../components/MoreBooks.astro';
+import Footer from '../../components/Footer.astro';
+import Checkmark from '../../components/icons/Checkmark.astro';
+import data from '../../data/books.json';
+import { author } from '../../config.json';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return data.books
+    .filter((b) => !b.featured)
+    .map((book) => ({ params: { slug: book.slug }, props: { book } }));
+}
+
+const { book } = Astro.props;
+const fullTitle = book.subtitle ? `${book.title}: ${book.subtitle}` : book.title;
+---
+
+<Layout title={`${fullTitle} | ${author.name}`} description={book.tagline} image={book.cover}>
+  <main class='mx-auto max-w-screen-xl px-4 sm:px-6 py-12 md:py-20'>
+    <div class='lg:grid lg:grid-cols-12 lg:gap-12'>
+      <div class='lg:col-span-4 mb-12 lg:mb-0'>
+        <div class='lg:sticky lg:top-8 max-w-xs mx-auto'>
+          <img src={book.cover} alt={book.title} class='w-full rounded-md shadow-2xl' />
+          <div class='mt-8 space-y-3'>
+            {book.formats.map((f) => (
+              <a
+                href={f.url}
+                target='_blank'
+                rel='noopener'
+                class='flex items-center justify-between w-full px-6 py-4 rounded-md font-semibold text-black bg-book-theme hover:bg-yellow-200 transition duration-300 ease-in-out'
+              >
+                <span>{f.label} on Amazon</span>
+                <span>{f.price}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div class='lg:col-span-8'>
+        {book.series && (
+          <p class='text-sm uppercase tracking-widest text-gray-500 mb-3'>{book.series}</p>
+        )}
+        <h1 class='text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 uppercase leading-tight'>
+          <span class='underline'>{book.title}</span>
+        </h1>
+        {book.subtitle && <p class='mt-4 text-xl sm:text-2xl font-semibold text-gray-700'>{book.subtitle}</p>}
+
+        <div class='mt-8 text-lg text-gray-600 font-body max-w-3xl'>
+          {book.description.map((block) =>
+            typeof block === 'string' ? (
+              <p class='mb-4'>{block}</p>
+            ) : (
+              <ul class='mb-6 space-y-2'>
+                {block.list.map((li) => (
+                  <li class='flex items-start'>
+                    <span class='flex-shrink-0 mt-1'><Checkmark /></span>
+                    <span class='ml-3'>{li}</span>
+                  </li>
+                ))}
+              </ul>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class='border-t border-gray-100'>
+    <MoreBooks exclude={book.slug} />
+  </div>
+  <Footer />
+</Layout>

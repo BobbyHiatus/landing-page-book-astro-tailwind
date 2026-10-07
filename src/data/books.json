@@ -1,0 +1,421 @@
+{
+  "series": {
+    "The Playbook Series": {
+      "title": "The Playbook Series",
+      "blurb": "Practical field guides for traders. Learn the system. Build the plan. Take the seat. Bit by bit."
+    }
+  },
+  "books": [
+    {
+      "slug": "the-geometry-of-flow",
+      "title": "The Geometry of Flow",
+      "subtitle": "Everything Passes Through the Thin Part",
+      "featured": true,
+      "cover": "/geometry-of-flow-cover.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$3.99",
+          "url": "https://www.amazon.com/dp/B0H72CL4JQ"
+        },
+        {
+          "label": "Paperback",
+          "price": "$14.99",
+          "url": "https://www.amazon.com/dp/B0H8WXTVK3"
+        }
+      ],
+      "tagline": "The world is a circulation system—and so are you."
+    },
+    {
+      "slug": "the-deck-has-already-been-cut",
+      "title": "The Deck Has Already Been Cut",
+      "subtitle": "Odds, Patterns, and the Stories We Tell About What Comes Next",
+      "cover": "https://m.media-amazon.com/images/I/61zszpH7JKL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H8HQFCK6"
+        },
+        {
+          "label": "Paperback",
+          "price": "$12.99",
+          "url": "https://www.amazon.com/dp/B0H8HZN6PW"
+        }
+      ],
+      "tagline": "The deck has already been cut. The board is beginning to fill. What story will you add to it?",
+      "description": [
+        "The deck has already been cut. The board is beginning to fill. What story will you add to it?",
+        "Card counters track what has left the shoe. Baccarat players study red and blue circles. Roulette signs glow with the last ten numbers. Sports bettors read streaks and storylines. Traders stack indicators on top of indicators, hoping the past will reveal what comes next.",
+        "Every one of those tools shows the same thing:",
+        "What already happened.",
+        "The Deck Has Already Been Cut is not a guide to beating the casino or predicting the market. It is a field guide to the mind standing in front of uncertainty—the patterns it finds, the stories it builds, and the rituals it uses to make the unknown feel manageable.",
+        "Moving through baccarat, roulette, craps, sports betting, slots, blackjack, poker, trading, and the modern misuse of FOMO, Bob Cavin III separates systems that genuinely improve decisions from systems that merely decorate uncertainty.",
+        "Along the way, the reader learns to ask:",
+        {
+          "list": [
+            "What did the board actually show?",
+            "What story did I add?",
+            "Did the information change the odds—or only change how I felt?"
+          ]
+        },
+        "The book also includes access to The Indicator Lab, an interactive companion featuring experiments in probability, streaks, card counting, near misses, and decision-making.",
+        "Because an indicator is historical.",
+        "A forecast is history attempting to rhyme.",
+        "That is not the same as history repeating.",
+        "Read the board. Know what it shows—and what it can’t. Make the decision available. Accept the result when it arrives. Bit by bit."
+      ]
+    },
+    {
+      "slug": "fomo",
+      "title": "FOMO",
+      "subtitle": "A Misused Term and The Spaces Between",
+      "cover": "https://m.media-amazon.com/images/I/51vZWk6q0HL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H66N2HPM"
+        },
+        {
+          "label": "Paperback",
+          "price": "$14.50",
+          "url": "https://www.amazon.com/dp/B0H5KLJ769"
+        }
+      ],
+      "tagline": "FOMO didn't begin as a diagnosis. It began as a shrug.",
+      "description": [
+        "FOMO didn't begin as a diagnosis. It began as a shrug.",
+        "Somewhere along the way, a simple phrase—Fear of Missing Out—stopped describing a moment and started describing an identity.",
+        "In FOMO: A Misused Term and the Spaces Between, Bob Cavin III takes apart one of the defining words of the digital age and asks a simple question:",
+        "What if we've been misunderstanding it the entire time?",
+        "Through reflections on language, culture, time, music, attention, and presence, this book explores how a casual expression evolved into a lens through which many people experience modern life.",
+        "Rather than offering productivity hacks or prescriptions, this book examines the hidden assumptions beneath the term itself:",
+        {
+          "list": [
+            "Why missing is not the same as absence",
+            "How culture confuses belonging with keeping up",
+            "Why the spaces between moments matter as much as the moments themselves",
+            "How language shapes experience",
+            "What presence actually means",
+            "Why consent to our own lives may be more renewable than we think"
+          ]
+        },
+        "Part philosophy, part cultural criticism, and part meditation on attention, FOMO invites readers to step outside the endless comparison loop and rediscover something quieter:",
+        "The life that was already happening.",
+        "Because maybe we didn't just change a phrase.",
+        "Maybe we changed the tense we live in."
+      ]
+    },
+    {
+      "slug": "the-breakout-playbook",
+      "title": "The Breakout Playbook",
+      "subtitle": "Ten Trading Legends",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/519nyf157rL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H4DFWL6G"
+        },
+        {
+          "label": "Paperback",
+          "price": "$9.99",
+          "url": "https://www.amazon.com/dp/B0H4GC2XNL"
+        }
+      ],
+      "tagline": "One machine. Ten masters. The eleventh seat is yours.",
+      "description": [
+        "Most traders spend years searching for the perfect strategy.",
+        "The truth? The market has never rewarded just one approach.",
+        "In The Breakout Playbook, Bob Cavin III explores the methods of ten legendary traders who built their reputations on repeatable systems, disciplined risk management, and proven market principles. From William O'Neil's CAN SLIM methodology and Nicolas Darvas' famous Box Theory to Mark Minervini's Volatility Contraction Pattern, Kristjan Kullamägi's Episodic Pivots, and the trend-following rules of the Turtle Traders, each chapter breaks down a complete trading framework in a practical, easy-to-understand format.",
+        "Inside you'll discover:",
+        {
+          "list": [
+            "The core philosophy behind each trading legend's success",
+            "Step-by-step explanations of their signature setups",
+            "Entry, stop-loss, and exit techniques",
+            "Risk management rules that protected their capital",
+            "Common mistakes traders make when applying each strategy",
+            "Quick-reference summaries and comparison guides"
+          ]
+        },
+        "Whether you're a new trader looking for your first proven system or an experienced investor searching for fresh ideas, this book provides a practical field guide to some of the most influential trading approaches ever developed.",
+        "The goal isn't to become the next trading legend.",
+        "The goal is to learn from the masters, build your own playbook, and take your seat at the table.",
+        "One machine. Ten masters. The eleventh seat is yours."
+      ]
+    },
+    {
+      "slug": "the-options-playbook",
+      "title": "The Options Playbook",
+      "subtitle": "Build Your Income Machine, Bit by Bit",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/61aiAB9Js6L._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H72W266P"
+        },
+        {
+          "label": "Paperback",
+          "price": "$9.99",
+          "url": "https://www.amazon.com/dp/B0H5JMYYLT"
+        }
+      ],
+      "tagline": "Most options books try to teach everything. This one teaches one machine.",
+      "description": [
+        "Most options books try to teach everything.",
+        "This one teaches one machine.",
+        "At first glance, a covered call, credit spread, iron condor, calendar spread, and ZEBRA look like completely different strategies. But beneath every options trade are the same five questions:",
+        {
+          "list": [
+            "What's my assumption?",
+            "What's my maximum loss?",
+            "What's my maximum gain?",
+            "What's my adjustment plan?",
+            "What's my exit plan?"
+          ]
+        },
+        "The Options Playbook breaks down ten of the most popular options strategies and shows how each is simply a different shape of the same decision-making machine.",
+        "Inside you'll learn:",
+        {
+          "list": [
+            "Covered Calls",
+            "Cash-Secured Puts",
+            "The Wheel Strategy",
+            "Credit Spreads",
+            "Debit Spreads",
+            "Iron Condors",
+            "Jade Lizards",
+            "Calendar Spreads",
+            "Poor Man's Covered Calls (PMCC)",
+            "ZEBRAs"
+          ]
+        },
+        "Each strategy includes:",
+        {
+          "list": [
+            "Clear explanations without unnecessary jargon",
+            "Risk and reward breakdowns",
+            "Visual payoff diagrams",
+            "Real-world examples",
+            "The Chair Test decision framework",
+            "Strategy scorecards",
+            "Common mistakes that blow up trades",
+            "Worksheets and journal pages to build your own trading process"
+          ]
+        },
+        "This is not an options encyclopedia.",
+        "It's a practical field guide, workbook, and reference manual designed to help traders move from understanding to execution.",
+        "Because successful options trading isn't built on one big trade.",
+        "It's built one decision at a time.",
+        "Learn the system.",
+        "Build the plan.",
+        "Take the seat.",
+        "Bit by bit."
+      ]
+    },
+    {
+      "slug": "the-wheel-playbook",
+      "title": "The Wheel Playbook",
+      "subtitle": "Build Your Wheel, Bit by Bit",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/61pMo5FkGFL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H738W77X"
+        },
+        {
+          "label": "Paperback",
+          "price": "$9.99",
+          "url": "https://www.amazon.com/dp/B0H4ZLKB52"
+        }
+      ],
+      "tagline": "It's a book about building a repeatable income machine one decision at a time.",
+      "description": [
+        "Most options books try to teach everything.",
+        "This one teaches one machine.",
+        "The Wheel Strategy is one of the most popular income-generating options systems ever developed. At its core, the process is simple: sell cash-secured puts, accept assignment when it happens, sell covered calls, and repeat. But successful Wheel traders know the real challenge isn't understanding the cycle—it's running the process consistently.",
+        "The Wheel Playbook strips the strategy down to its essentials.",
+        "Inside you'll learn:",
+        {
+          "list": [
+            "How the Wheel works from start to finish",
+            "The five stages of the Wheel cycle",
+            "How to select stocks, strikes, and expirations",
+            "Common mistakes that destroy Wheel performance",
+            "The Wheel Scorecard and Seat Test decision tools",
+            "Real-world case studies, including examples that go wrong",
+            "Worksheets, trackers, and workbook pages to build your own Wheel process"
+          ]
+        },
+        "This isn't a book about chasing jackpots.",
+        "It's a book about building a repeatable income machine one decision at a time.",
+        "Whether you're selling your first cash-secured put or refining a long-term options income strategy, this Playbook provides a practical field guide designed to be used—not just read.",
+        "Learn the system.",
+        "Build the plan.",
+        "Take the seat.",
+        "Bit by bit."
+      ]
+    },
+    {
+      "slug": "the-forex-playbook",
+      "title": "The Forex Playbook",
+      "subtitle": "Follow the Flow, Bit by Bit",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/61FncvJ97AL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H739NXBH"
+        },
+        {
+          "label": "Paperback",
+          "price": "$9.99",
+          "url": "https://www.amazon.com/dp/B0H62KZ1ZN"
+        }
+      ],
+      "tagline": "Patience. React. Don't Predict.",
+      "description": [
+        "Most traders want to know where the market is going.",
+        "The better question is:",
+        "What will I do when it gets there?",
+        "The Forex Playbook is not a book about predicting the market. It's a practical field guide built around a simple principle:",
+        "Patience. React. Don't Predict.",
+        "Instead of chasing forecasts, you'll learn how to identify market flow, define risk, and react to what price is actually doing.",
+        "Inside you'll learn ten core Forex trading machines, including:",
+        {
+          "list": [
+            "Trend Following",
+            "Pullbacks",
+            "Breakouts",
+            "Range Trading",
+            "Reversals",
+            "Session Trading",
+            "News Reactions",
+            "Momentum Setups",
+            "Continuation Patterns",
+            "Flow-Based Trade Management"
+          ]
+        },
+        "Each setup is broken down to the essentials:",
+        {
+          "list": [
+            "What it is",
+            "Why it works",
+            "What invalidates it",
+            "The one thing that blows it up",
+            "Real chart examples",
+            "Worksheets and scorecards",
+            "Trade journal pages to build your own process"
+          ]
+        },
+        "You'll also learn the Flow Test—a simple framework designed to keep traders focused on reaction instead of prediction.",
+        "This is not an indicator book.",
+        "It is not a signal service.",
+        "It is not a promise of easy money.",
+        "It is a workbook, field guide, and decision-making system built for traders who want to stop guessing and start responding.",
+        "Because successful trading isn't about predicting the future.",
+        "It's about reacting to reality.",
+        "Take the seat.",
+        "Follow the flow.",
+        "Bit by bit."
+      ]
+    },
+    {
+      "slug": "the-leaps-playbook",
+      "title": "The LEAPS Playbook",
+      "subtitle": "Buy Time. Build Position. Manage the Thesis.",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/51+zZuYTjsL._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Paperback",
+          "price": "$9.99",
+          "url": "https://www.amazon.com/dp/B0H8XMGRGG"
+        }
+      ],
+      "tagline": "Some strategies generate motion. Others create traction.",
+      "description": [
+        "Some strategies generate motion. Others create traction.",
+        "The LEAPS Playbook is built for investors who want more control than buy-and-hold, but less screen time than active trading.",
+        "A LEAPS position gives a long-term thesis more room to work. It does not make the thesis right. This book shows how to use that extra time with structure: choosing duration and strike, using delta as a stock-replacement lens, understanding intrinsic and extrinsic value, sizing the position, managing volatility, and exiting before time decay becomes the trade.",
+        "Inside, you will learn how to approach:",
+        {
+          "list": [
+            "Deep-in-the-money LEAPS for stock replacement",
+            "Poor man’s covered calls",
+            "Diagonals and calendars",
+            "Long-dated puts for hedging",
+            "Out-of-the-money LEAPS without turning them into lottery tickets",
+            "Rolling, assignment, exercise, liquidity, earnings, and dividends",
+            "Position sizing and thesis management",
+            "The difference between buying more time and buying more risk"
+          ]
+        },
+        "The poor man’s covered call is broken down piece by piece, including how to choose both legs, manage the short call, handle assignment risk, track cost basis, and compare the structure with a traditional covered call.",
+        "The book also includes worked examples, checklists, a management calendar, position-tracking pages, and access to The LEAPS Companion—an interactive tool with a trade journal, Tread Builder, expiration runway, equity curve, Chair Test, broker CSV import, and local data backup.",
+        "Built around one simple principle:",
+        "Buy time. Build the position. Manage the thesis.",
+        "Because long-dated does not mean low-risk.",
+        "It means you purchased more time to manage the risk.",
+        "More involvement than buy-and-hold.",
+        "Less attention than active trading."
+      ]
+    },
+    {
+      "slug": "the-journal",
+      "title": "The Journal",
+      "subtitle": "The Final Playbook",
+      "series": "The Playbook Series",
+      "cover": "https://m.media-amazon.com/images/I/61pdiRjyE0L._SY600_.jpg",
+      "formats": [
+        {
+          "label": "Kindle",
+          "price": "$2.99",
+          "url": "https://www.amazon.com/dp/B0H74D48MN"
+        },
+        {
+          "label": "Paperback",
+          "price": "$12.99",
+          "url": "https://www.amazon.com/dp/B0H5SXVBTR"
+        }
+      ],
+      "tagline": "The final playbook isn't read. It's written.",
+      "description": [
+        "The final playbook isn't read. It's written.",
+        "You don't become a better trader in one trade—you become one, one decision at a time.",
+        "The Journal is the capstone of the Playbook Series: a practical, undated trading journal designed to help traders track decisions, review patterns, and build consistency over time.",
+        "Unlike planners and dated journals, there is no \"right\" day to start. Open it after a winning streak. Open it after a losing streak. Open it today.",
+        "Inside you'll find:",
+        {
+          "list": [
+            "12 weeks of daily trading journal pages",
+            "Weekly reviews and reflection prompts",
+            "Four-week performance reviews",
+            "Quarterly review and goal-setting pages",
+            "Chair Check self-assessments",
+            "Playbook reminders from the series",
+            "Blank charting and graph grids for personal tracking"
+          ]
+        },
+        "Built around the Playbook philosophy:",
+        "Take the seat.",
+        "Record the lesson.",
+        "Bit by bit.",
+        "This is not a planner.",
+        "It is not a challenge.",
+        "It is not a report card.",
+        "It is a tool designed to help traders become more aware of their decisions, learn from their mistakes, and build confidence through repetition.",
+        "Because the final playbook isn't read.",
+        "It's written."
+      ]
+    }
+  ]
+}

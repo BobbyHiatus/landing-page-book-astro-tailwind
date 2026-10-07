@@ -36,7 +36,7 @@ const hasSocial = author.instagramUrl || author.twitterUrl || author.linkedinUrl
     </div>
 
     {sections.showAboutAuthor && (
-      <div class='mt-12 flex-none sm:flex sm:items-start gap-8'>
+      <div id='about' class='mt-12 flex-none sm:flex sm:items-start gap-8 scroll-mt-8'>
         {author.photo && (
           <img class='mb-4 rounded-md w-48 h-48 object-cover' src={author.photo} alt={author.name} />
         )}

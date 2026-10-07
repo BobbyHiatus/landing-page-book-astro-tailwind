@@ -1,0 +1,35 @@
+---
+import BookCard from './BookCard.astro';
+import data from '../data/books.json';
+import { author } from '../config.json';
+
+export interface Props {
+  exclude?: string;
+}
+const { exclude } = Astro.props;
+const books = data.books.filter((b) => b.slug !== exclude);
+const standalone = books.filter((b) => !b.series);
+const seriesNames = [...new Set(books.filter((b) => b.series).map((b) => b.series))];
+---
+
+<section id='books' class='bg-white'>
+  <div class='max-w-screen-xl mx-auto px-4 sm:px-6 py-16'>
+    <h2 class='text-4xl sm:text-5xl font-semibold text-gray-900 mb-10'>More books by {author.name}</h2>
+
+    <div class='grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6'>
+      {standalone.map((b) => <BookCard book={b} />)}
+    </div>
+
+    {seriesNames.map((name) => (
+      <div class='mt-16'>
+        <h3 class='text-3xl font-semibold text-gray-900'>{data.series[name]?.title ?? name}</h3>
+        {data.series[name]?.blurb && (
+          <p class='mt-2 mb-8 max-w-3xl text-lg text-gray-600 font-body'>{data.series[name].blurb}</p>
+        )}
+        <div class='grid gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6'>
+          {books.filter((b) => b.series === name).map((b) => <BookCard book={b} />)}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

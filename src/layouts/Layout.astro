@@ -1,13 +1,20 @@
 ---
 import '../styles/global.css';
+import '@fontsource/pt-serif';
+import Header from '../components/Header.astro';
+import { seo, author } from '../config.json';
+
 export interface Props {
-	title: string;
+	title?: string;
+	description?: string;
+	image?: string;
+	type?: string;
 }
 
-const { title } = Astro.props;
-import '@fontsource/pt-serif';
-
-import { seo, author, book } from '../config.json';
+const { title = seo.title, description = seo.description, image = seo.image, type = 'book' } = Astro.props;
+const base = seo.canonical.replace(/\/$/, '');
+const url = base + Astro.url.pathname;
+const imageUrl = image ? (image.startsWith('http') ? image : base + image) : '';
 ---
 
 <!doctype html>
@@ -16,37 +23,25 @@ import { seo, author, book } from '../config.json';
 		<meta charset='UTF-8' />
 		<meta name='viewport' content='width=device-width' />
 		<link rel='icon' type='image/png' href='/favicon.png' />
-		<link rel='canonical' href={seo.canonical} />
+		<link rel='canonical' href={url} />
 		<meta name='generator' content={Astro.generator} />
 		<meta name='robots' content='index,follow' />
-		<meta name='googlebot' content='index,follow' />
-		<meta name='description' content={seo.description} />
-		<meta property='og:url' content={seo.canonical} />
-		<meta property='og:title' content={seo.title} />
-		<meta property='og:description' content={seo.description} />
-		<meta property='og:type' content='website' />
-		{seo.image && <meta property='og:image' content={seo.canonical + seo.image} />}
-		<meta property='og:image:width' content='800' />
-		<meta property='og:image:height' content='600' />
-		<meta property='og:site_name' content={seo.title} />
+		<meta name='description' content={description} />
+		<meta property='og:url' content={url} />
+		<meta property='og:title' content={title} />
+		<meta property='og:description' content={description} />
+		<meta property='og:type' content={type} />
+		{imageUrl && <meta property='og:image' content={imageUrl} />}
+		<meta property='og:site_name' content={author.name} />
 		<meta property='og:locale' content={seo.locale} />
-
-		<meta property='og:type' content='book' />
 		<meta property='book:author' content={author.name} />
-		{book.isbn && <meta property='book:isbn' content={book.isbn} />}
-		<meta property='book:release_date' content={book.releaseDate} />
-
-		<meta property='og:type' content='product' />
-		<meta property='product:price:amount' content={book.price} />
-		<meta property='product:price:currency' content={book.currency} />
-
 		<meta name='twitter:card' content='summary_large_image' />
-		<meta name='twitter:title' content={seo.title} />
-		<meta name='twitter:description' content={seo.description} />
-
-		<title>{seo.title}</title>
+		<meta name='twitter:title' content={title} />
+		<meta name='twitter:description' content={description} />
+		<title>{title}</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
 		<style lang='scss' is:global>
 			$book-theme-color: #f59e0b;

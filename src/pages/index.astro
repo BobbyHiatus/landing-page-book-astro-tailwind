@@ -8,10 +8,11 @@ import WhatsInside from '../components/WhatsInside.astro';
 import Buy from '../components/Buy.astro';
 import Footer from '../components/Footer.astro';
 import AudioBook from '../components/AudioBook.astro';
+import MoreBooks from '../components/MoreBooks.astro';
 import { sections, book } from '../config.json';
 ---
 
-<Layout title={book.title}>
+<Layout>
   <HeroSection />
   <WhyReadThisBook />
   {sections.showBuyAudiobook && <AudioBook />}
@@ -19,5 +20,6 @@ import { sections, book } from '../config.json';
   {sections.showDownloadFreeChapter && <FreeChapter />}
   <WhatsInside />
   <Buy />
+  <MoreBooks exclude='the-geometry-of-flow' />
   <Footer />
 </Layout>
