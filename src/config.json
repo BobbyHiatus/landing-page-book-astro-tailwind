@@ -40,7 +40,7 @@
     "sub": "Everything Passes Through the Thin Part",
     "isbn": "",
     "releaseDate": "2024",
-    "price": "9.99",
+    "price": "3.99",
     "currency": "USD",
     "buyPhysicalUrl": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through/dp/B0H8WXTVK3",
     "buyDigitalUrl": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through-ebook/dp/B0H72CL4JQ",
@@ -87,7 +87,7 @@
     "priceLeft": {
       "title": "Ebook",
       "amount": {
-        "decimal": 9,
+        "decimal": 3,
         "cents": 99
       },
       "details": [
