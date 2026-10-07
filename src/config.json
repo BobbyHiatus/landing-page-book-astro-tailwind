@@ -36,6 +36,19 @@
     "buyDigitalUrl": "https://www.amazon.com",
     "buyAudiobookUrl": ""
   },
+  "whyRead": {
+    "title": "Why Read This Book?",
+    "list": [
+      {
+        "title": "Systems Thinking",
+        "description": "Learn to see the hidden networks, pipelines, and chokepoints that govern both global logistics and human attention."
+      },
+      {
+        "title": "A New Perspective",
+        "description": "Bridging philosophical reflections with creative non-fiction, exploring how the outer world and your inner life map onto the same terrain."
+      }
+    ]
+  },
   "sectionPrices": {
     "priceLeft": {
       "title": "Ebook",
@@ -48,6 +61,12 @@
       "amount": "14",
       "cents": "99",
       "details": ["Format: Printed Edition", "Shipped by Amazon"]
+    },
+    "priceAudiobook": {
+      "title": "Audiobook",
+      "amount": "0",
+      "cents": "00",
+      "details": ["Format: MP3", "Not currently available"]
     }
   },
   "socialShare": {
