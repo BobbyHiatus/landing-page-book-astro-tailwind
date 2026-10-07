@@ -14,57 +14,39 @@
     "locale": "en_US",
     "image": "/og_image_800_600_2.png"
   },
+  "show": {
+    "is": ["AMAZON"]
+  },
   "author": {
-    "title": "Chapada do Corisco",
-    "isbn": "978-65-89313-54-0",
-    "releaseDate": "2022-03-28",
-    "price": "34.9",
-    "currency": "BRL",
-    "buyPhysicalUrl": "https://www.arteimpressaeditora.com.br/product-page/chapada-do-corisco-alisson-carvalho",
-    "buyDigitalUrl": "https://www.amazon.com.br/Chapada-do-Corisco-Alisson-Carvalho-ebook/dp/B09WTD7RW9/",
-    "buyAudiobookUrl": "#"
+    "name": "Bob Cavin III",
+    "email": "your-email@example.com",
+    "location": "United States",
+    "twitterUrl": "",
+    "instagramUrl": "",
+    "linkedinUrl": ""
+  },
+  "book": {
+    "title": "The Geometry of Flow",
+    "sub": "Everything Passes Through the Thin Part",
+    "releasedDate": "2024",
+    "price": "9.99",
+    "currency": "USD",
+    "buyPhysicalUrl": "https://www.amazon.com",
+    "buyDigitalUrl": "https://www.amazon.com",
+    "buyAudiobookUrl": ""
   },
   "sectionPrices": {
     "priceLeft": {
-      "title": "Audiobook",
-      "amount": {
-        "decimal": 14,
-        "cents": 95
-      },
-      "details": ["3+ Horas", "Formato MP3"],
-      "button": {
-        "label": "Em gravação",
-        "url": "#"
-      }
-    },
-    "priceMain": {
-      "title": "Livro físico",
-      "amount": {
-        "decimal": 34,
-        "cents": 90
-      },
-      "details": ["164 Páginas", "Capa fosca", "Papel creme"],
-      "button": {
-        "label": "Compre na Arte Impressa",
-        "url": "https://www.arteimpressaeditora.com.br/product-page/chapada-do-corisco-alisson-carvalho"
-      },
-      "tagTitle": {
-        "title": "Mais Popular",
-        "cssClass": "text-book-gray bg-book-theme"
-      }
+      "title": "Ebook",
+      "amount": "9",
+      "cents": "99",
+      "details": ["Format: Kindle/Ebook", "Immediate download"]
     },
     "priceRight": {
-      "title": "E-book",
-      "amount": {
-        "decimal": 13,
-        "cents": 99
-      },
-      "previousAmount": "",
-      "details": ["164 Páginas", "Formato MOBI (Amazon)"],
-      "button": {
-        "label": "Compre na Amazon",
-        "url": "https://www.amazon.com.br/Chapada-do-Corisco-Alisson-Carvalho-ebook/dp/B09WTD7RW9/"
-      }
+      "title": "Paperback",
+      "amount": "14",
+      "cents": "99",
+      "details": ["Format: Printed Edition", "Shipped by Amazon"]
     }
   }
 }
