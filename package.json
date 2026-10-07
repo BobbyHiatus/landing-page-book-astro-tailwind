@@ -19,7 +19,6 @@
 		"tailwindcss": "^4.2.1"
 	},
 	"devDependencies": {
-		"@astrojs/vercel": "10.0.0",
 		"sass": "^1.98.0"
 	},
 	"engines": {

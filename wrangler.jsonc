@@ -1,0 +1,9 @@
+{
+  // Cloudflare deploy settings: serve the static site that `bun run build` writes to dist/
+  "name": "bobcavin",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
