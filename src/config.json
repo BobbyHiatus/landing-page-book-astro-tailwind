@@ -1,5 +1,6 @@
 {
   "showAmazonTag": false,
+  "showCountingSell": false,
   "showComingSoon": false,
   "showBuyAndBookButton": true,
   "showBuyAudiobookButton": false,
@@ -16,7 +17,9 @@
     "image": "/og_image_800_600_2.png"
   },
   "show": {
-    "is": ["AMAZON"]
+    "is": [
+      "AMAZON"
+    ]
   },
   "author": {
     "name": "Bob Cavin III",
@@ -29,7 +32,8 @@
   "book": {
     "title": "The Geometry of Flow",
     "sub": "Everything Passes Through the Thin Part",
-    "releasedDate": "2024",
+    "isbn": "",
+    "releaseDate": "2024",
     "price": "9.99",
     "currency": "USD",
     "buyPhysicalUrl": "https://www.amazon.com",
@@ -52,21 +56,33 @@
   "sectionPrices": {
     "priceLeft": {
       "title": "Ebook",
-      "amount": "9",
-      "cents": "99",
-      "details": ["Format: Kindle/Ebook", "Immediate download"]
+      "amount": {
+        "decimal": 9,
+        "cents": 99
+      },
+      "details": [
+        "Format: Kindle/Ebook",
+        "Immediate download"
+      ],
+      "button": {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com"
+      }
     },
-    "priceRight": {
+    "priceMain": {
       "title": "Paperback",
-      "amount": "14",
-      "cents": "99",
-      "details": ["Format: Printed Edition", "Shipped by Amazon"]
-    },
-    "priceAudiobook": {
-      "title": "Audiobook",
-      "amount": "0",
-      "cents": "00",
-      "details": ["Format: MP3", "Not currently available"]
+      "amount": {
+        "decimal": 14,
+        "cents": 99
+      },
+      "details": [
+        "Format: Printed Edition",
+        "Shipped by Amazon"
+      ],
+      "button": {
+        "label": "Buy on Amazon",
+        "url": "https://www.amazon.com"
+      }
     }
   },
   "socialShare": {
