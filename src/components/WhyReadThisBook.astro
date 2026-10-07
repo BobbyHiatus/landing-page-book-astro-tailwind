@@ -40,7 +40,7 @@ const hasSocial = author.instagramUrl || author.twitterUrl || author.linkedinUrl
         {author.photo && (
           <img class='mb-4 rounded-md w-48 h-48 object-cover' src={author.photo} alt={author.name} />
         )}
-        <div class='text-lg text-gray-600 font-body'>
+        <div class='max-w-3xl text-lg text-gray-600 font-body'>
           <h3 class='text-2xl font-semibold text-gray-900 mb-2'>About {author.name}</h3>
           {author.bio.map((p) => <p class='mb-4'>{p}</p>)}
           {author.location && <p class='text-sm italic text-gray-500'>{author.location}</p>}

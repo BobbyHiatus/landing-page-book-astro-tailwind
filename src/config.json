@@ -14,7 +14,7 @@
     "description": "The world is a circulation system—and so are you. Bob Cavin III on canals, cables, currencies, attention, grief, and presence: what happens when everything must pass through a narrow place.",
     "canonical": "https://landing-page-book-astro-tailwind-git-main-bobby-hiatus.vercel.app",
     "locale": "en_US",
-    "image": ""
+    "image": "/og-geometry-of-flow.jpg"
   },
   "show": {
     "is": [
@@ -29,7 +29,11 @@
     "instagramUrl": "",
     "linkedinUrl": "",
     "photo": "",
-    "bio": []
+    "bio": [
+      "Bob Cavin spent years telling himself he was \"just taking notes.\" Eventually the notes became books.",
+      "His interests include trading, storytelling, culture, philosophy, baseball weather patterns, and researching topics far beyond what any reasonable person would consider necessary.",
+      "He lives by a simple rule: keep showing up, keep learning, and build things bit by bit."
+    ]
   },
   "book": {
     "title": "The Geometry of Flow",
@@ -63,7 +67,7 @@
       "Because the answer—at the scale of a civilization and at the scale of a Tuesday—is not a better wall.",
       "It is a wiser current."
     ],
-    "cover": "",
+    "cover": "/geometry-of-flow-cover.jpg",
     "heroParagraphs": 4
   },
   "whyRead": {
