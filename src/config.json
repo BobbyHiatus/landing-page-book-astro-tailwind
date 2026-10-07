@@ -1,7 +1,7 @@
 {
-  "showAmazonTag": false,
-  "showCountingSell": false,
-  "showBuyAudiobookButton": false,
+  "showWelcomeTag": false,
+  "showComingSoon": false,
+  "showBuyAndBookButton": false,
   "sections": {
     "showBuyAudiobook": false,
     "showDownloadFreeChapter": false,
@@ -14,22 +14,7 @@
     "locale": "en_US",
     "image": "/og_image_800_600_2.png"
   },
-    "canonical": "https://www.livrochapadadocorisco.com",
-    "locale": "pt_BR",
-    "image": "/og_image_800_600_2.png"
-  },
-  "theme": {
-    "color": "#f59e0b"
-  },
   "author": {
-    "name": "Alisson Carvalho",
-    "email": "alissonmssc@gmail.com",
-    "location": "Teresina, Piauí",
-    "twitterUrl": "https://twitter.com/rascunholiquido",
-    "instagramUrl": "https://www.instagram.com/rascunhosliquidos/",
-    "linkedinUrl": "https://www.linkedin.com/in/alisson-carvalho-854bb0131/"
-  },
-  "book": {
     "title": "Chapada do Corisco",
     "isbn": "978-65-89313-54-0",
     "releaseDate": "2022-03-28",
