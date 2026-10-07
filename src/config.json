@@ -11,10 +11,10 @@
   },
   "seo": {
     "title": "The Geometry of Flow: Everything Passes Through the Thin Part",
-    "description": "The world is a circulation system—and so are you.\\n\\nA ship wedges sideways in the Suez Canal. A coffee shop staffs the wrong weekend. A phrase becomes so charged that people stop hearing the words inside it. At first, these events appear unrelated.\\n\\nPull the camera back, and they reveal the same shape.\\n\\nIn The Geometry of Flow, Bob Cavin III braids canals, cables, currencies, borders, attention, grief, and presence into a single inquiry: What happens when everything must pass through a narrow place?\\n\\nGlobal trade compresses through straits and chokepoints. Information travels through undersea cables and privately controlled platforms. A human life narrows through the present moment—the thin point where attention becomes experience.\\n\\nThrough creative nonfiction, systems thinking, and philosophical reflection, this book explores:\\n\\n- why borders explain possession while flow explains movement\\n- how pressure creates rerouting rather than true stoppage\\n- why efficiency can make systems fragile\\n- how attention compounds into identity\\n- what grief can teach us about resilience\\n- why presence is not capturing a moment, but allowing it to pass through us completely\\n- how the spaces between notes, words, people, and moments become the places where meaning is made\\n\\nThis is not a policy argument, a productivity manual, or a field guide. It is an essay about learning to see the outer world and the inner life as two maps of the same terrain.\\n\\nBecause the answer—at the scale of a civilization and at the scale of a Tuesday—is not a better wall.\\n\\nIt is a wiser current.",
-    "canonical": "https://www.livrochapadadocorisco.com",
+    "description": "The world is a circulation system—and so are you. Bob Cavin III on canals, cables, currencies, attention, grief, and presence: what happens when everything must pass through a narrow place.",
+    "canonical": "https://landing-page-book-astro-tailwind-git-main-bobby-hiatus.vercel.app",
     "locale": "en_US",
-    "image": "/og_image_800_600_2.png"
+    "image": ""
   },
   "show": {
     "is": [
@@ -27,7 +27,9 @@
     "location": "United States",
     "twitterUrl": "",
     "instagramUrl": "",
-    "linkedinUrl": ""
+    "linkedinUrl": "",
+    "photo": "",
+    "bio": []
   },
   "book": {
     "title": "The Geometry of Flow",
@@ -38,7 +40,31 @@
     "currency": "USD",
     "buyPhysicalUrl": "https://www.amazon.com",
     "buyDigitalUrl": "https://www.amazon.com",
-    "buyAudiobookUrl": ""
+    "buyAudiobookUrl": "",
+    "blurb": [
+      "The world is a circulation system—and so are you.",
+      "A ship wedges sideways in the Suez Canal. A coffee shop staffs the wrong weekend. A phrase becomes so charged that people stop hearing the words inside it. At first, these events appear unrelated.",
+      "Pull the camera back, and they reveal the same shape.",
+      "In The Geometry of Flow, Bob Cavin III braids canals, cables, currencies, borders, attention, grief, and presence into a single inquiry: What happens when everything must pass through a narrow place?",
+      "Global trade compresses through straits and chokepoints. Information travels through undersea cables and privately controlled platforms. A human life narrows through the present moment—the thin point where attention becomes experience.",
+      "Through creative nonfiction, systems thinking, and philosophical reflection, this book explores:",
+      {
+        "list": [
+          "why borders explain possession while flow explains movement",
+          "how pressure creates rerouting rather than true stoppage",
+          "why efficiency can make systems fragile",
+          "how attention compounds into identity",
+          "what grief can teach us about resilience",
+          "why presence is not capturing a moment, but allowing it to pass through us completely",
+          "how the spaces between notes, words, people, and moments become the places where meaning is made"
+        ]
+      },
+      "This is not a policy argument, a productivity manual, or a field guide. It is an essay about learning to see the outer world and the inner life as two maps of the same terrain.",
+      "Because the answer—at the scale of a civilization and at the scale of a Tuesday—is not a better wall.",
+      "It is a wiser current."
+    ],
+    "cover": "",
+    "heroParagraphs": 4
   },
   "whyRead": {
     "title": "Why Read This Book?",
@@ -114,7 +140,8 @@
   },
   "buy": {
     "title": "Get your copy today",
-    "description": "Available in digital and physical editions on Amazon."
+    "description": "Available in digital and physical editions on Amazon.",
+    "tag": "Most popular"
   },
   "footer": {
     "text": "Copyright © 2024 Bob Cavin III. All rights reserved."
