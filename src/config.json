@@ -2,6 +2,7 @@
   "showAmazonTag": false,
   "showComingSoon": false,
   "showBuyAndBookButton": true,
+  "showBuyAudiobookButton": false,
   "sections": {
     "showBuyAudiobook": false,
     "showDownloadFreeChapter": false,
