@@ -42,8 +42,8 @@
     "releaseDate": "2024",
     "price": "9.99",
     "currency": "USD",
-    "buyPhysicalUrl": "https://www.amazon.com",
-    "buyDigitalUrl": "https://www.amazon.com",
+    "buyPhysicalUrl": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through/dp/B0H8WXTVK3",
+    "buyDigitalUrl": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through-ebook/dp/B0H72CL4JQ",
     "buyAudiobookUrl": "",
     "blurb": [
       "The world is a circulation system—and so are you.",
@@ -96,7 +96,7 @@
       ],
       "button": {
         "label": "Buy on Amazon",
-        "url": "https://www.amazon.com"
+        "url": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through-ebook/dp/B0H72CL4JQ"
       }
     },
     "priceMain": {
@@ -111,7 +111,7 @@
       ],
       "button": {
         "label": "Buy on Amazon",
-        "url": "https://www.amazon.com"
+        "url": "https://www.amazon.com/Geometry-Flow-Everything-Passes-Through/dp/B0H8WXTVK3"
       }
     }
   },
