@@ -7,7 +7,7 @@ import partytown from '@astrojs/partytown';
 // Static build: every page is plain HTML in dist/, so it can be hosted anywhere
 // (Cloudflare, Netlify, Vercel, GitHub Pages).
 export default defineConfig({
-	site: 'https://bobcavin.pages.dev',
+	site: 'https://bobcavin.bcavin.workers.dev',
 	integrations: [sitemap(), partytown()],
 	vite: {
 		plugins: [tailwindcss()],
